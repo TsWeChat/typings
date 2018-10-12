@@ -1,7 +1,7 @@
 # TsWeChat typings
 [TypeScript](http://www.typescriptlang.org) declaration file for WeApp API  
 
-[![NPM](https://nodei.co/npm/typed-we-app.png?downloads=true&stars=true)](https://nodei.co/npm/typed-we-app/)
+[@tswechat/typings](https://www.npmjs.com/package/@tswechat/typings)
 
 ## Install
 
