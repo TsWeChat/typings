@@ -1,15 +1,26 @@
 {
-    "version": "0.0.1",
-    "author": "Wesley",
-    "description": "typescript declaration for WeApp",
-    "keywords": [ "weapp", "wechat", "wexin", "typed", "types", "typescript" ],
-    "license": "MIT",
-    "main": "weapp.d.ts",
-    "types": "webapp.d.ts",
-    "name": "@tswechat/typings",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/TsWeChat/typings"
-    },
-    "scripts": {}
+  "version": "0.0.1",
+  "author": "Wesley",
+  "description": "typescript declaration for WeApp",
+  "keywords": [
+    "weapp",
+    "wechat",
+    "wexin",
+    "typed",
+    "types",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "weapp.d.ts",
+  "types": "webapp.d.ts",
+  "name": "@tswechat/typings",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TsWeChat/typings.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/TsWeChat/typings/issues"
+  },
+  "homepage": "https://github.com/TsWeChat/typings#readme"
 }
