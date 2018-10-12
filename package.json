@@ -1,5 +1,5 @@
 {
-    "author": "Emeryao",
+    "author": "Wesley",
     "description": "typescript declaration for WeApp",
     "keywords": [
         "weapp",
@@ -10,14 +10,13 @@
         "typescript"
     ],
     "license": "MIT",
-    "main": "we-app.d.ts",
-    "name": "typed-we-app",
+    "main": "weapp.d.ts",
+    "types": "webapp.d.ts",
+    "name": "@tswechat/typings",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Emeryao/typed-we-app"
+        "url": "https://github.com/TsWeChat/typings"
     },
-    "scripts": {
-        "postinstall": "node scripts/postinstall.js"
-    },
-    "version": "1.7.0-update.5"
+    "scripts": { },
+    "version": "0.1"
 }
