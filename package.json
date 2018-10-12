@@ -1,14 +1,8 @@
 {
+    "version": "0.1",
     "author": "Wesley",
     "description": "typescript declaration for WeApp",
-    "keywords": [
-        "weapp",
-        "wechat",
-        "wexin",
-        "typed",
-        "types",
-        "typescript"
-    ],
+    "keywords": [ "weapp", "wechat", "wexin", "typed", "types", "typescript" ],
     "license": "MIT",
     "main": "weapp.d.ts",
     "types": "webapp.d.ts",
@@ -17,6 +11,5 @@
         "type": "git",
         "url": "https://github.com/TsWeChat/typings"
     },
-    "scripts": { },
-    "version": "0.1"
+    "scripts": {}
 }
