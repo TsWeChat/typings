@@ -25,6 +25,8 @@
   "homepage": "https://github.com/TsWeChat/typings#readme",
   "devDependencies": {
     "crawler": "^1.2.0",
+    "jsdom": "^12.2.0",
+    "ts-node": "^7.0.1",
     "typescript": "^3.1.3"
   }
 }
