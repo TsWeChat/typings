@@ -1,10 +1,14 @@
 {
-    "window": {
-        "navigationBarTextStyle": "black",
-        "navigationBarTitleText": "歌诗达邮轮船票",
-        "navigationBarBackgroundColor": "#FFD100",
-        "backgroundColor": "#FFD100",
-        "enablePullDownRefresh": false
-    },
-    "pages": [ "pages/index/index", "pages/my/my" ]
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "歌诗达邮轮船票",
+    "navigationBarBackgroundColor": "#FFD100",
+    "backgroundColor": "#FFD100",
+    "enablePullDownRefresh": false
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/analytics/analytics"
+  ]
 }

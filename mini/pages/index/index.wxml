@@ -1,1 +1,4 @@
-<text>test tswechat typings</text>
+<page>
+	<navigator url="../analytics/analytics" hover-class="className">analytics</navigator>
+</page>
+

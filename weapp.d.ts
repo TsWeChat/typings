@@ -183,6 +183,21 @@ declare namespace wx {
 	 */
     export function request(options: RequestOptions): void
 
+    interface reportAnalyticsOptions {
+        [key: string]: number | string
+    }
+
+    // https://developers.weixin.qq.com/miniprogram/dev/api/open-api/data-analysis/wx.reportAnalytics.html
+    // https://developers.weixin.qq.com/miniprogram/analysis/custom/#%E4%BA%8B%E4%BB%B6%E7%9A%84%E7%BC%96%E8%BE%91%E4%B8%8E%E5%8F%91%E5%B8%83
+    /**
+     * 
+     * 自定义分析数据上报接口。使用前，需要在小程序管理后台自定义分析中新建事件，配置好事件名与字段。
+     * 
+     * @param eventName 事件名
+     * @param options 上报的自定义数据
+     */
+    export function reportAnalytics(eventName: string, options: reportAnalyticsOptions): void
+
     export interface UploadFileResult {
         /**
 		 * 开发者服务器返回的数据
