@@ -1,22 +1,21 @@
-wx.request({
-    url: '',
-    success: (res) => {
-        console.log(res.data);
-    },
-});
+import * as Crawler from "crawler"
 
-let ctx = wx.createCanvasContext('');
-ctx.fillText('hello', 0, 0);
+console.log(Crawler, typeof Crawler)
 
-let actions = ctx.getActions();
+const c = new Crawler({
+    maxConnections: 10,
+    callback: function(error, res, done) {
+        if (error) {
+            console.log(error)
+        } else {
+            var $ = res.$
+            // $ is Cheerio by default
+            //a lean implementation of core jQuery designed specifically for the server
 
-wx.getBLEDeviceServices({
-    deviceId: '',
-    success: (res) => {
-        console.log(res.services[0].uuid);
-    },
-});
+            console.log(res.body)
+        }
+        done()
+    }
+})
 
-let mgr = wx.getBackgroundAudioManager();
-mgr.play();
-mgr.seek(3);
+c.queue("https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html")
