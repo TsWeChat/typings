@@ -1,3 +1,5 @@
+import { writeFileSync } from "fs"
+import * as url from "url"
 import * as Crawler from "crawler"
 
 enum EType {
@@ -13,7 +15,9 @@ interface IChapter {
     subs: IChapter[]
 }
 
-function parse($: any, chapters: any[] = []): IChapter[] {
+const initPath = "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html"
+
+function parse($: any, chapters: any[] = [], type: EType = EType.category): IChapter[] {
     const resultChapters: IChapter[] = []
 
     const len = chapters.length
@@ -23,21 +27,29 @@ function parse($: any, chapters: any[] = []): IChapter[] {
         const { attribs } = cat
 
         const subList = Array.isArray(cat.childNodes)
-            ? cat.childNodes.find((ele) => ele.attribs && ele.attribs.class && ele.attribs.class.indexOf("articles") > -1)
+            ? cat.childNodes.find(
+                  (ele) => ele.attribs && ele.attribs.class && ele.attribs.class.indexOf("articles") > -1
+              )
             : undefined
 
-        const path = attribs["data-path"]
-        const name = attribs["data-name"]
+        const path = attribs ? attribs["data-path"] : ""
+        const name = attribs ? attribs["data-name"] : ""
+
+        if (!name) continue
 
         const item: IChapter = {
             name,
-            path,
-            type: EType.category,
+            path: url.resolve(initPath, path),
+            type,
             subs: []
         }
 
         if (subList && subList.name === "ul") {
-            item.subs = parse($, subList.childNodes)
+            item.subs = parse($, subList.childNodes, EType.subCategory)
+        }
+
+        if (item.subs.length === 0) {
+            item.type = EType.wechatAPI
         }
 
         resultChapters.push(item)
@@ -55,10 +67,12 @@ const c = new Crawler({
             console.log(error)
         } else {
             var $ = res.$
-            parse($, $("nav[role='navigation'] .summary > .chapter"))
+            const data = parse($, $("nav[role='navigation'] .summary > .chapter"))
+
+            writeFileSync("./data.json", JSON.stringify(data, null, 4))
         }
         done()
     }
 })
 
-c.queue("https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html")
+c.queue(initPath)

@@ -5,8 +5,7 @@
         "strict": true,
         "noImplicitAny": false,
         "sourceMap": false,
-        "allowJs": true,
-        "outDir": "dist"
+        "allowJs": true
     },
     "include": [
         "./src",

@@ -1,0 +1,3613 @@
+[
+    {
+        "name": "网络",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "下载",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.downloadFile",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "DownloadTask",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/DownloadTask.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "DownloadTask.onProgressUpdate",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/DownloadTask.onProgressUpdate.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "DownloadTask.abort",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/DownloadTask.abort.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "发起请求",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/request/wx.request.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.request",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/request/wx.request.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RequestTask",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/request/RequestTask.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RequestTask.abort",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/request/RequestTask.abort.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "WebSocket",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/wx.connectSocket.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.connectSocket",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/wx.connectSocket.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.sendSocketMessage",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/wx.sendSocketMessage.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onSocketOpen",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/wx.onSocketOpen.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onSocketClose",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/wx.onSocketClose.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onSocketMessage",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/wx.onSocketMessage.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onSocketError",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/wx.onSocketError.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.closeSocket",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/wx.closeSocket.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "SocketTask.onMessage",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/SocketTask.onMessage.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "SocketTask.send",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/SocketTask.send.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "SocketTask.close",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/SocketTask.close.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "SocketTask.onOpen",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/SocketTask.onOpen.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "SocketTask.onClose",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/SocketTask.onClose.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "SocketTask.onError",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/SocketTask.onError.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "SocketTask",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/SocketTask.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "上传",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/wx.uploadFile.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.uploadFile",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/wx.uploadFile.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "UploadTask",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/UploadTask.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "UploadTask.onProgressUpdate",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/UploadTask.onProgressUpdate.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "UploadTask.abort",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/UploadTask.abort.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "媒体",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.stopVoice.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "音频",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.stopVoice.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.stopVoice",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.stopVoice.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.createAudioContext",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.createAudioContext.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.createInnerAudioContext",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.createInnerAudioContext.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getAvailableAudioSources",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.getAvailableAudioSources.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.setInnerAudioOption",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.setInnerAudioOption.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.playVoice",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.playVoice.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.pauseVoice",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.pauseVoice.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.offStop",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offStop.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.onEnded",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.onEnded.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.offEnded",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offEnded.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.onTimeUpdate",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.onTimeUpdate.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.offTimeUpdate",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offTimeUpdate.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.onError",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.onError.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.offError",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offError.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.onWaiting",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.onWaiting.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.offWaiting",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offWaiting.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.onSeeking",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.onSeeking.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.offSeeking",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offSeeking.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.onSeeked",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.onSeeked.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.offCanplay",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offCanplay.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.play",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.play.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.pause",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.pause.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.stop",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.stop.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.seek",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.seek.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.destroy",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.destroy.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "AudioContext",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/AudioContext.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "AudioContext.setSrc",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/AudioContext.setSrc.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "AudioContext.play",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/AudioContext.play.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "AudioContext.pause",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/AudioContext.pause.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "AudioContext.seek",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/AudioContext.seek.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.onCanplay",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.onCanplay.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.onPlay",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.onPlay.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.offPlay",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offPlay.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.onPause",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.onPause.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.offPause",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offPause.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.onStop",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.onStop.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "InnerAudioContext.offSeeked",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offSeeked.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "相机",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/camera/wx.createCameraContext.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.createCameraContext",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/camera/wx.createCameraContext.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "CameraContext",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/camera/CameraContext.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "CameraContext.takePhoto",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/camera/CameraContext.takePhoto.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "CameraContext.startRecord",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/camera/CameraContext.startRecord.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "CameraContext.stopRecord",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/camera/CameraContext.stopRecord.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "实时音视频",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/wx.createLivePusherContext.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.createLivePusherContext",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/wx.createLivePusherContext.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.createLivePlayerContext",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/wx.createLivePlayerContext.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePlayerContext.stop",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePlayerContext.stop.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePlayerContext.mute",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePlayerContext.mute.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePlayerContext.pause",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePlayerContext.pause.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePlayerContext.resume",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePlayerContext.resume.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePlayerContext.requestFullScreen",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePlayerContext.requestFullScreen.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePlayerContext.exitFullScreen",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePlayerContext.exitFullScreen.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePlayerContext",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePlayerContext.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePlayerContext.play",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePlayerContext.play.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePusherContext.start",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.start.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePusherContext.stop",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.stop.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePusherContext.pause",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.pause.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePusherContext.resume",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.resume.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePusherContext.switchCamera",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.switchCamera.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePusherContext.snapshot",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.snapshot.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePusherContext.toggleTorch",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.toggleTorch.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "LivePusherContext",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "视频",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/wx.saveVideoToPhotosAlbum.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.saveVideoToPhotosAlbum",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/wx.saveVideoToPhotosAlbum.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.createVideoContext",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/wx.createVideoContext.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.chooseVideo",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/wx.chooseVideo.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "VideoContext.stop",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.stop.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "VideoContext.seek",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.seek.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "VideoContext.sendDanmu",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.sendDanmu.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "VideoContext.playbackRate",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.playbackRate.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "VideoContext.play",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.play.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "VideoContext.exitFullScreen",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.exitFullScreen.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "VideoContext.showStatusBar",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.showStatusBar.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "VideoContext.hideStatusBar",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.hideStatusBar.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "VideoContext",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "VideoContext.pause",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.pause.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "VideoContext.requestFullScreen",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.requestFullScreen.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "字体",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/font/wx.loadFontFace.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.loadFontFace",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/font/wx.loadFontFace.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "图片",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.chooseImage.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.chooseImage",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.chooseImage.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.previewImage",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.previewImage.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getImageInfo",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.getImageInfo.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.saveImageToPhotosAlbum",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.saveImageToPhotosAlbum.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "背景音频",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.onBackgroundAudioStop.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.onBackgroundAudioStop",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.onBackgroundAudioStop.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getBackgroundAudioManager",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.getBackgroundAudioManager.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getBackgroundAudioPlayerState",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.getBackgroundAudioPlayerState.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.playBackgroundAudio",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.playBackgroundAudio.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.pauseBackgroundAudio",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.pauseBackgroundAudio.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.seekBackgroundAudio",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.seekBackgroundAudio.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.stopBackgroundAudio",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.stopBackgroundAudio.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onBackgroundAudioPlay",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.onBackgroundAudioPlay.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onBackgroundAudioPause",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.onBackgroundAudioPause.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.onPause",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.onPause.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.onSeeking",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.onSeeking.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.onSeeked",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.onSeeked.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.onEnded",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.onEnded.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.play",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.play.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.onTimeUpdate",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.onTimeUpdate.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.onNext",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.onNext.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.onPrev",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.onPrev.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.pause",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.pause.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.seek",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.seek.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.stop",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.stop.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.onCanPlay",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.onCanPlay.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.onWaiting",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.onWaiting.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.onError",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.onError.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.onPlay",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.onPlay.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "BackgroundAudioManager.onStop",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.onStop.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "录音",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/wx.stopRecord.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.stopRecord",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/wx.stopRecord.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getRecorderManager",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/wx.getRecorderManager.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.startRecord",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/wx.startRecord.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RecorderManager.resume",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.resume.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RecorderManager.stop",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.stop.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RecorderManager.onStart",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.onStart.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RecorderManager.onResume",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.onResume.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RecorderManager.onPause",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.onPause.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RecorderManager.start",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.start.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RecorderManager.onFrameRecorded",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.onFrameRecorded.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RecorderManager.onError",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.onError.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RecorderManager.onInterruptionBegin",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.onInterruptionBegin.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RecorderManager.onInterruptionEnd",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.onInterruptionEnd.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RecorderManager",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RecorderManager.pause",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.pause.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "RecorderManager.onStop",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.onStop.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "文件",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/wx.saveFile.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "wx.saveFile",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/wx.saveFile.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.openDocument",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/wx.openDocument.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.getSavedFileList",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/wx.getSavedFileList.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.getSavedFileInfo",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/wx.getSavedFileInfo.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.removeSavedFile",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/wx.removeSavedFile.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.getFileInfo",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/wx.getFileInfo.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.getFileSystemManager",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/wx.getFileSystemManager.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.mkdir",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.mkdir.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.getSavedFileList",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.getSavedFileList.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.appendFileSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.appendFileSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.saveFile",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.saveFile.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.removeSavedFile",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.removeSavedFile.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.saveFileSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.saveFileSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.copyFile",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.copyFile.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.copyFileSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.copyFileSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.getFileInfo",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.getFileInfo.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.access",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.access.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.appendFile",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.appendFile.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.accessSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.accessSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.mkdirSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.mkdirSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.readFile",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.readFile.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.readFileSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.readFileSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.readdir",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.readdir.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.readdirSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.readdirSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.rename",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.rename.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.renameSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.renameSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.rmdir",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.rmdir.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.rmdirSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.rmdirSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "Stats",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/Stats.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "Stats.isDirectory",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/Stats.isDirectory.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "Stats.isFile",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/Stats.isFile.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.stat",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.stat.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.statSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.statSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.unlink",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.unlink.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.unlinkSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.unlinkSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.unzip",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.unzip.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.writeFile",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.writeFile.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "FileSystemManager.writeFileSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.writeFileSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    },
+    {
+        "name": "数据缓存",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.getStorage.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "wx.getStorage",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.getStorage.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.getStorageSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.getStorageSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.setStorage",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.setStorage.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.setStorageSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.setStorageSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.removeStorage",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.removeStorage.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.removeStorageSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.removeStorageSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.clearStorage",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.clearStorage.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.clearStorageSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.clearStorageSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.getStorageInfo",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.getStorageInfo.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.getStorageInfoSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.getStorageInfoSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    },
+    {
+        "name": "位置",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.getLocation.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "wx.getLocation",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.getLocation.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.openLocation",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.openLocation.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.chooseLocation",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.chooseLocation.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    },
+    {
+        "name": "设备",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/network/wx.getNetworkType.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "网络",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/network/wx.getNetworkType.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.getNetworkType",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/network/wx.getNetworkType.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onNetworkStatusChange",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/network/wx.onNetworkStatusChange.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "加速计",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/accelerometer/wx.startAccelerometer.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.startAccelerometer",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/accelerometer/wx.startAccelerometer.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.stopAccelerometer",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/accelerometer/wx.stopAccelerometer.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onAccelerometerChange",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/accelerometer/wx.onAccelerometerChange.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "剪贴板",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/clipboard/wx.getClipboardData.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.getClipboardData",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/clipboard/wx.getClipboardData.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.setClipboardData",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/clipboard/wx.setClipboardData.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "罗盘",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/compass/wx.startCompass.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.startCompass",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/compass/wx.startCompass.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.stopCompass",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/compass/wx.stopCompass.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onCompassChange",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/compass/wx.onCompassChange.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "联系人",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/contact/wx.addPhoneContact.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.addPhoneContact",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/contact/wx.addPhoneContact.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "陀螺仪",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/gyroscope/wx.startGyroscope.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.startGyroscope",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/gyroscope/wx.startGyroscope.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.stopGyroscope",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/gyroscope/wx.stopGyroscope.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onGyroscopeChange",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/gyroscope/wx.onGyroscopeChange.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "iBeacon",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/ibeacon/wx.startBeaconDiscovery.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.startBeaconDiscovery",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/ibeacon/wx.startBeaconDiscovery.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.stopBeaconDiscovery",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/ibeacon/wx.stopBeaconDiscovery.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getBeacons",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/ibeacon/wx.getBeacons.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onBeaconUpdate",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/ibeacon/wx.onBeaconUpdate.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onBeaconServiceChange",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/ibeacon/wx.onBeaconServiceChange.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "IBeaconInfo",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/ibeacon/IBeaconInfo.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "设备方向",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/motion/wx.startDeviceMotionListening.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.startDeviceMotionListening",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/motion/wx.startDeviceMotionListening.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.stopDeviceMotionListening",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/motion/wx.stopDeviceMotionListening.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onDeviceMotionChange",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/motion/wx.onDeviceMotionChange.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "电量",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/battery/wx.getBatteryInfo.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.getBatteryInfo",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/battery/wx.getBatteryInfo.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getBatteryInfoSync",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/battery/wx.getBatteryInfoSync.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "电话",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/phone/wx.makePhoneCall.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.makePhoneCall",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/phone/wx.makePhoneCall.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "扫码",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/scan/wx.scanCode.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.scanCode",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/scan/wx.scanCode.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "振动",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/vibrate/wx.vibrateShort.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.vibrateShort",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/vibrate/wx.vibrateShort.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.vibrateLong",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/vibrate/wx.vibrateLong.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "性能",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/performance/wx.onMemoryWarning.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.onMemoryWarning",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/performance/wx.onMemoryWarning.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "蓝牙",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.onBLECharacteristicValueChange.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.onBLECharacteristicValueChange",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.onBLECharacteristicValueChange.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.closeBLEConnection",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.closeBLEConnection.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.createBLEConnection",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.createBLEConnection.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getBLEDeviceCharacteristics",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.getBLEDeviceCharacteristics.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getBLEDeviceServices",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.getBLEDeviceServices.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getBluetoothAdapterState",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.getBluetoothAdapterState.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getBluetoothDevices",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.getBluetoothDevices.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getConnectedBluetoothDevices",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.getConnectedBluetoothDevices.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.notifyBLECharacteristicValueChange",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.notifyBLECharacteristicValueChange.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.closeBluetoothAdapter",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.closeBluetoothAdapter.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onBLEConnectionStateChange",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.onBLEConnectionStateChange.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onBluetoothAdapterStateChange",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.onBluetoothAdapterStateChange.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onBluetoothDeviceFound",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.onBluetoothDeviceFound.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.openBluetoothAdapter",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.openBluetoothAdapter.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.readBLECharacteristicValue",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.readBLECharacteristicValue.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.startBluetoothDevicesDiscovery",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.startBluetoothDevicesDiscovery.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.stopBluetoothDevicesDiscovery",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.stopBluetoothDevicesDiscovery.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.writeBLECharacteristicValue",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.writeBLECharacteristicValue.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "NFC",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/wx.getHCEState.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.getHCEState",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/wx.getHCEState.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onHCEMessage",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/wx.onHCEMessage.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.sendHCEMessage",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/wx.sendHCEMessage.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.startHCE",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/wx.startHCE.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.stopHCE",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/wx.stopHCE.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "屏幕",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/screen/wx.getScreenBrightness.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.getScreenBrightness",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/screen/wx.getScreenBrightness.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onUserCaptureScreen",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/screen/wx.onUserCaptureScreen.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.setKeepScreenOn",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/screen/wx.setKeepScreenOn.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.setScreenBrightness",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/screen/wx.setScreenBrightness.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "Wi-Fi",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.connectWifi.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.connectWifi",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.connectWifi.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getConnectedWifi",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.getConnectedWifi.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getWifiList",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.getWifiList.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onGetWifiList",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.onGetWifiList.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.onWifiConnected",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.onWifiConnected.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.setWifiList",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.setWifiList.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.startWifi",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.startWifi.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.stopWifi",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.stopWifi.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "WifiInfo",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/WifiInfo.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "界面",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/pull-down-refresh/wx.startPullDownRefresh.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "下拉刷新",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/pull-down-refresh/wx.startPullDownRefresh.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.startPullDownRefresh",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/pull-down-refresh/wx.startPullDownRefresh.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.stopPullDownRefresh",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/pull-down-refresh/wx.stopPullDownRefresh.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "自定义组件",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.nextTick",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "菜单",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/menu/wx.getMenuButtonBoundingClientRect.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.getMenuButtonBoundingClientRect",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/menu/wx.getMenuButtonBoundingClientRect.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "交互",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.showModal.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.showModal",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.showModal.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.showToast",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.showToast.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.hideToast",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.hideToast.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.showLoading",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.showLoading.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.hideLoading",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.hideLoading.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.showActionSheet",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.showActionSheet.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "滚动",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/scroll/wx.pageScrollTo.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.pageScrollTo",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/scroll/wx.pageScrollTo.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "动画",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/wx.createAnimation.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.createAnimation",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/wx.createAnimation.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.step",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.step.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.matrix",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.matrix.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.matrix3d",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.matrix3d.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.rotate",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.rotate.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.rotate3d",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.rotate3d.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.rotateX",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.rotateX.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.rotateY",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.rotateY.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.rotateZ",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.rotateZ.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.scale",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.scale.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.scale3d",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.scale3d.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.scaleX",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.scaleX.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.scaleY",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.scaleY.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.scaleZ",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.scaleZ.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.skew",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.skew.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.export",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.export.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.skewY",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.skewY.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.translate",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.translate.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.translate3d",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.translate3d.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.translateX",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.translateX.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.translateY",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.translateY.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.translateZ",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.translateZ.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.opacity",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.opacity.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.backgroundColor",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.backgroundColor.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.width",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.width.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.height",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.height.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.left",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.left.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.right",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.right.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.top",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.top.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.bottom",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.bottom.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "Animation.skewX",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/Animation.skewX.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "窗口",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/window/wx.onWindowResize.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.onWindowResize",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/window/wx.onWindowResize.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.offWindowResize",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/window/wx.offWindowResize.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "背景",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/background/wx.setBackgroundColor.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.setBackgroundColor",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/background/wx.setBackgroundColor.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.setBackgroundTextStyle",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/background/wx.setBackgroundTextStyle.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "Tab Bar",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.setTabBarBadge.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.setTabBarBadge",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.setTabBarBadge.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.removeTabBarBadge",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.removeTabBarBadge.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.showTabBarRedDot",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.showTabBarRedDot.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.hideTabBarRedDot",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.hideTabBarRedDot.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.showTabBar",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.showTabBar.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.hideTabBar",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.hideTabBar.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.setTabBarStyle",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.setTabBarStyle.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.setTabBarItem",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.setTabBarItem.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "置顶",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/sticky/wx.setTopBarText.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.setTopBarText",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/sticky/wx.setTopBarText.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "导航栏",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/navigation-bar/wx.setNavigationBarTitle.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.setNavigationBarTitle",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/navigation-bar/wx.setNavigationBarTitle.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.showNavigationBarLoading",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/navigation-bar/wx.showNavigationBarLoading.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.hideNavigationBarLoading",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/navigation-bar/wx.hideNavigationBarLoading.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.setNavigationBarColor",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/navigation-bar/wx.setNavigationBarColor.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "开放接口",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/setting/wx.getSetting.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "设置",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/setting/wx.getSetting.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.getSetting",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/setting/wx.getSetting.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.openSetting",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/setting/wx.openSetting.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "AuthSetting",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/setting/AuthSetting.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "当前账号信息",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/account-info/wx.getAccountInfoSync.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.getAccountInfoSync",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/account-info/wx.getAccountInfoSync.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "收货地址",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/address/wx.chooseAddress.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.chooseAddress",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/address/wx.chooseAddress.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "授权",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/authorize/wx.authorize.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.authorize",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/authorize/wx.authorize.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "卡券",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/card/wx.addCard.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.addCard",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/card/wx.addCard.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.openCard",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/card/wx.openCard.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "发票",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/invoice/wx.chooseInvoice.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.chooseInvoice",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/invoice/wx.chooseInvoice.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.chooseInvoiceTitle",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/invoice/wx.chooseInvoiceTitle.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "支付",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/payment/wx.faceVerifyForPay.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.faceVerifyForPay",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/payment/wx.faceVerifyForPay.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.requestPayment",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/payment/wx.requestPayment.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "用户信息",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/user-info/wx.getUserInfo.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.getUserInfo",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/user-info/wx.getUserInfo.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "UserInfo",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/user-info/UserInfo.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "微信运动",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/werun/wx.getWeRunData.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.getWeRunData",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/werun/wx.getWeRunData.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "数据分析",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/data-analysis/wx.reportAnalytics.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.reportAnalytics",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/data-analysis/wx.reportAnalytics.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getAnalysisWeeklyVisitTrend",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/data-analysis/getAnalysisWeeklyVisitTrend.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getAnalysisDailySummary",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/data-analysis/getAnalysisDailySummary.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getAnalysisDailyVisitTrend",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/data-analysis/getAnalysisDailyVisitTrend.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getAnalysisMonthlyRetain",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/data-analysis/getAnalysisMonthlyRetain.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getAnalysisDailyRetain",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/data-analysis/getAnalysisDailyRetain.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getAnalysisUserPortrait",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/data-analysis/getAnalysisUserPortrait.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getAnalysisVisitDistribution",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/data-analysis/getAnalysisVisitDistribution.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getAnalysisVisitPage",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/data-analysis/getAnalysisVisitPage.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getAnalysisWeeklyRetain",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/data-analysis/getAnalysisWeeklyRetain.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getAnalysisMonthlyVisitTrend",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/data-analysis/getAnalysisMonthlyVisitTrend.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "登录",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/wx.login.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.login",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/wx.login.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.checkSession",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/wx.checkSession.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "code2Session",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/code2Session.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "生物认证",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/soter/wx.checkIsSoterEnrolledInDevice.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.checkIsSoterEnrolledInDevice",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/soter/wx.checkIsSoterEnrolledInDevice.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.checkIsSupportSoterAuthentication",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/soter/wx.checkIsSupportSoterAuthentication.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.startSoterAuthentication",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/soter/wx.startSoterAuthentication.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "小程序跳转",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/miniprogram-navigate/wx.navigateBackMiniProgram.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.navigateBackMiniProgram",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/miniprogram-navigate/wx.navigateBackMiniProgram.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.navigateToMiniProgram",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/miniprogram-navigate/wx.navigateToMiniProgram.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "接口调用凭证",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/access-token/getAccessToken.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "getAccessToken",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/access-token/getAccessToken.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "统一服务消息",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/uniform-message/sendUniformMessage.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "sendUniformMessage",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/uniform-message/sendUniformMessage.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "客服消息",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/customer-message/customerTyping.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "customerTyping",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/customer-message/customerTyping.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getTempMedia",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/customer-message/getTempMedia.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "sendCustomerMessage",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/customer-message/sendCustomerMessage.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "uploadTempMedia",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/customer-message/uploadTempMedia.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "附近的小程序",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/nearby-poi/addNearbyPoi.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "addNearbyPoi",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/nearby-poi/addNearbyPoi.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "deleteNearbyPoi",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/nearby-poi/deleteNearbyPoi.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getNearbyPoiList",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/nearby-poi/getNearbyPoiList.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "setNearbyPoiShowStatus",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/nearby-poi/setNearbyPoiShowStatus.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "插件管理",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/plugin-management/applyPlugin.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "applyPlugin",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/plugin-management/applyPlugin.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getPluginDevApplyList",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/plugin-management/getPluginDevApplyList.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getPluginList",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/plugin-management/getPluginList.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "setDevPluginApplyStatus",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/plugin-management/setDevPluginApplyStatus.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "unbindPlugin",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/plugin-management/unbindPlugin.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "二维码",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/qr-code/createWXAQRCode.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "createWXAQRCode",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/qr-code/createWXAQRCode.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getWXACode",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/qr-code/getWXACode.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getWXACodeUnlimit",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/qr-code/getWXACodeUnlimit.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "内容安全",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/sec-check/imgSecCheck.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "imgSecCheck",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/sec-check/imgSecCheck.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "msgSecCheck",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/sec-check/msgSecCheck.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            },
+            {
+                "name": "模板消息",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/template-message/addTemplate.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "addTemplate",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/template-message/addTemplate.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "deleteTemplate",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/template-message/deleteTemplate.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getTemplateLibraryById",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/template-message/getTemplateLibraryById.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getTemplateLibraryList",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/template-message/getTemplateLibraryList.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "getTemplateList",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/template-message/getTemplateList.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "sendTemplateMessage",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/template-message/sendTemplateMessage.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "更新",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/update/wx.getUpdateManager.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "wx.getUpdateManager",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/update/wx.getUpdateManager.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "UpdateManager",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/update/UpdateManager.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "UpdateManager.onCheckForUpdate",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/update/UpdateManager.onCheckForUpdate.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "UpdateManager.onUpdateReady",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/update/UpdateManager.onUpdateReady.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "UpdateManager.onUpdateFailed",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/update/UpdateManager.onUpdateFailed.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "UpdateManager.applyUpdate",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/update/UpdateManager.applyUpdate.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    },
+    {
+        "name": "Worker",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/worker/wx.createWorker.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "wx.createWorker",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/worker/wx.createWorker.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "Worker",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/worker/Worker.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "Worker.postMessage",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/worker/Worker.postMessage.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "Worker.onMessage",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/worker/Worker.onMessage.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "Worker.terminate",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/worker/Worker.terminate.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    },
+    {
+        "name": "数据上报",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/report/wx.reportMonitor.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "wx.reportMonitor",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/report/wx.reportMonitor.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    },
+    {
+        "name": "WXML",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/wx.createIntersectionObserver.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "wx.createIntersectionObserver",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/wx.createIntersectionObserver.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.createSelectorQuery",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/wx.createSelectorQuery.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "NodesRef.scrollOffset",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/NodesRef.scrollOffset.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "IntersectionObserver.relativeTo",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/IntersectionObserver.relativeTo.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "IntersectionObserver.observe",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/IntersectionObserver.observe.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "IntersectionObserver.disconnect",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/IntersectionObserver.disconnect.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "NodesRef",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/NodesRef.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "NodesRef.fields",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/NodesRef.fields.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "IntersectionObserver",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/IntersectionObserver.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "IntersectionObserver.relativeToViewport",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/IntersectionObserver.relativeToViewport.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "SelectorQuery",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/SelectorQuery.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "SelectorQuery.in",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/SelectorQuery.in.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "SelectorQuery.select",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/SelectorQuery.select.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "SelectorQuery.selectAll",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/SelectorQuery.selectAll.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "SelectorQuery.selectViewport",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/SelectorQuery.selectViewport.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "SelectorQuery.exec",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/SelectorQuery.exec.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "NodesRef.boundingClientRect",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/NodesRef.boundingClientRect.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    },
+    {
+        "name": "地图",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/map/wx.createMapContext.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "wx.createMapContext",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/map/wx.createMapContext.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "MapContext",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/map/MapContext.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "MapContext.getCenterLocation",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/map/MapContext.getCenterLocation.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "MapContext.moveToLocation",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/map/MapContext.moveToLocation.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "MapContext.translateMarker",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/map/MapContext.translateMarker.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "MapContext.includePoints",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/map/MapContext.includePoints.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "MapContext.getRegion",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/map/MapContext.getRegion.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "MapContext.getScale",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/map/MapContext.getScale.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    },
+    {
+        "name": "系统",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/system/system-info/wx.getSystemInfo.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "系统信息",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/system/system-info/wx.getSystemInfo.html",
+                "type": "subCategory",
+                "subs": [
+                    {
+                        "name": "wx.getSystemInfo",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/system/system-info/wx.getSystemInfo.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    },
+                    {
+                        "name": "wx.getSystemInfoSync",
+                        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/system/system-info/wx.getSystemInfoSync.html",
+                        "type": "wechatAPI",
+                        "subs": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "第三方平台",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ext/wx.getExtConfig.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "wx.getExtConfig",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ext/wx.getExtConfig.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.getExtConfigSync",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/ext/wx.getExtConfigSync.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    },
+    {
+        "name": "画布",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasGetImageData.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "wx.canvasGetImageData",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasGetImageData.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.canvasToTempFilePath",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasToTempFilePath.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.createCanvasContext",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.createCanvasContext.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.canvasPutImageData",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasPutImageData.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.draw",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.draw.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.createLinearGradient",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.createLinearGradient.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.createCircularGradient",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.createCircularGradient.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasGradient",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasGradient.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasGradient.addColorStop",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasGradient.addColorStop.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.createPattern",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.createPattern.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.measureText",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.measureText.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.save",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.save.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.restore",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.restore.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.beginPath",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.beginPath.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.moveTo",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.moveTo.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.lineTo",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.lineTo.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.quadraticCurveTo",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.quadraticCurveTo.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.bezierCurveTo",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.bezierCurveTo.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.arc",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.arc.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.rect",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.rect.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.arcTo",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.arcTo.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.clip",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.clip.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.fillRect",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.fillRect.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.strokeRect",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.strokeRect.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "Color",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/Color.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.fill",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.fill.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.stroke",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.stroke.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.closePath",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.closePath.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.scale",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.scale.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.rotate",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.rotate.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.translate",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.translate.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.drawImage",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.drawImage.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.strokeText",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.strokeText.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.transform",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.transform.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.setTransform",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setTransform.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.setFillStyle",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setFillStyle.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.setStrokeStyle",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setStrokeStyle.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.setShadow",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setShadow.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.setGlobalAlpha",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setGlobalAlpha.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.setLineWidth",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setLineWidth.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.setLineJoin",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setLineJoin.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.setLineCap",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setLineCap.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.setLineDash",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setLineDash.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.setMiterLimit",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setMiterLimit.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.fillText",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.fillText.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.setFontSize",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setFontSize.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.setTextAlign",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setTextAlign.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.setTextBaseline",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setTextBaseline.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "CanvasContext.clearRect",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.clearRect.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    },
+    {
+        "name": "调试",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/wx.getLogManager.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "wx.getLogManager",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/wx.getLogManager.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.setEnableDebug",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/wx.setEnableDebug.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "console",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/console.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "LogManager.log",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/LogManager.log.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "LogManager.warn",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/LogManager.warn.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "LogManager",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/LogManager.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "LogManager.info",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/LogManager.info.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "LogManager.debug",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/LogManager.debug.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "console.debug",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/console.debug.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "console.log",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/console.log.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "console.info",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/console.info.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "console.warn",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/console.warn.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "console.error",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/console.error.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "console.group",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/console.group.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "console.groupEnd",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/debug/console.groupEnd.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    },
+    {
+        "name": "基础",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/base/wx.canIUse.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "wx.canIUse",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/base/wx.canIUse.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    },
+    {
+        "name": "转发",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/share/wx.getShareInfo.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "wx.getShareInfo",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/share/wx.getShareInfo.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.hideShareMenu",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/share/wx.hideShareMenu.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.showShareMenu",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/share/wx.showShareMenu.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.updateShareMenu",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/share/wx.updateShareMenu.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    },
+    {
+        "name": "路由",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.redirectTo.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "wx.redirectTo",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.redirectTo.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.reLaunch",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.reLaunch.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.navigateTo",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.navigateTo.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.switchTab",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.switchTab.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "wx.navigateBack",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.navigateBack.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    },
+    {
+        "name": "定时器",
+        "path": "https://developers.weixin.qq.com/miniprogram/dev/api/timer/setTimeout.html",
+        "type": "category",
+        "subs": [
+            {
+                "name": "setTimeout",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/timer/setTimeout.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "clearTimeout",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/timer/clearTimeout.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "setInterval",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/timer/setInterval.html",
+                "type": "wechatAPI",
+                "subs": []
+            },
+            {
+                "name": "clearInterval",
+                "path": "https://developers.weixin.qq.com/miniprogram/dev/api/timer/clearInterval.html",
+                "type": "wechatAPI",
+                "subs": []
+            }
+        ]
+    }
+]
