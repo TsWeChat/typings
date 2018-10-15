@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/TsWeChat/typings/issues"
   },
-  "homepage": "https://github.com/TsWeChat/typings#readme"
+  "homepage": "https://github.com/TsWeChat/typings#readme",
+  "devDependencies": {
+    "crawler": "^1.2.0",
+    "typescript": "^3.1.3"
+  }
 }
