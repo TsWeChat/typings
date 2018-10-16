@@ -1,78 +1,39 @@
-import { writeFileSync } from "fs"
-import * as url from "url"
-import * as Crawler from "crawler"
+import { resolve } from "path"
+import { IChapter } from "./getApiList"
+import APIListJson from "./data/data.json"
+import { Parse } from "./parse"
+import { WriteType } from "./writeType"
 
-enum EType {
-    category = "category",
-    subCategory = "subCategory",
-    wechatAPI = "wechatAPI"
-}
+const data: IChapter[] = APIListJson
 
-interface IChapter {
-    name: string
-    path: string
-    type: EType
-    subs: IChapter[]
-}
+const parseQueue: IChapter[] = []
 
-const initPath = "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html"
+function loopChapters(chapters: IChapter[]): void {
+    chapters.forEach((section) => {
+        const { path, subs = [] } = section
 
-function parse($: any, chapters: any[] = [], type: EType = EType.category): IChapter[] {
-    const resultChapters: IChapter[] = []
-
-    const len = chapters.length
-
-    for (let i = 0; i < len; i++) {
-        const cat = chapters[i]
-        const { attribs } = cat
-
-        const subList = Array.isArray(cat.childNodes)
-            ? cat.childNodes.find(
-                  (ele) => ele.attribs && ele.attribs.class && ele.attribs.class.indexOf("articles") > -1
-              )
-            : undefined
-
-        const path = attribs ? attribs["data-path"] : ""
-        const name = attribs ? attribs["data-name"] : ""
-
-        if (!name) continue
-
-        const item: IChapter = {
-            name,
-            path: url.resolve(initPath, path),
-            type,
-            subs: []
-        }
-
-        if (subList && subList.name === "ul") {
-            item.subs = parse($, subList.childNodes, EType.subCategory)
-        }
-
-        if (item.subs.length === 0) {
-            item.type = EType.wechatAPI
-        }
-
-        resultChapters.push(item)
-
-        // console.log(name, path, item.subs)
-    }
-
-    return resultChapters
-}
-
-const c = new Crawler({
-    maxConnections: 10,
-    callback: function(error, res, done, $) {
-        if (error) {
-            console.log(error)
+        if (subs.length > 0) {
+            loopChapters(subs)
         } else {
-            var $ = res.$
-            const data = parse($, $("nav[role='navigation'] .summary > .chapter"))
-
-            writeFileSync("./data.json", JSON.stringify(data, null, 4))
+            parseQueue.push(section)
         }
-        done()
-    }
-})
+    })
+}
 
-c.queue(initPath)
+loopChapters(data)
+
+function startParseQueue(index: number) {
+    const item = parseQueue[index]
+
+    Parse(item.path).then((result) => {
+        item.parseResult = result
+        if (index >= parseQueue.length - 1) {
+            console.log("End parse")
+            WriteType(data)
+        } else {
+            startParseQueue(index + 1)
+        }
+    })
+}
+
+startParseQueue(0)
