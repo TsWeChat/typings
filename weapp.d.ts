@@ -119,7 +119,7 @@ declare namespace wx {
         /**
 		 * 接口调用成功的回调函数
 		 */
-        success?: () => void
+        success?: (res: any) => void
 
         /**
 		 * 接口调用失败的回调函数
@@ -132,7 +132,7 @@ declare namespace wx {
         complete?: (res: any) => void
     }
 
-    export interface IData {
+    export interface IMapData {
         [key: string]: any
     }
 
@@ -140,18 +140,22 @@ declare namespace wx {
 
     export interface RequestResult<T = any> {
         /**
-		 * 开发者服务器返回的内容
+		 * string/Object/Arraybuffer 开发者服务器返回的数据
 		 */
         data: T
 
+        /**
+         * 开发者服务器返回的 HTTP 状态码
+         */
         statusCode: number
 
-        header: IData
-
-        errMsg: string
+        /**
+         * 开发者服务器返回的 HTTP Response Header
+         */
+        header: IMapData
     }
 
-    export interface RequestOptions<T = string | IData> extends BaseOptions {
+    export interface RequestOptions<P = any, T = any> extends BaseOptions {
         /**
 		 * 开发者服务器接口地址
 		 */
@@ -160,28 +164,50 @@ declare namespace wx {
         /**
 		 * 请求的参数
 		 */
-        data?: T
+        data?: P
 
         /**
 		 * 设置请求的 header , header 中不能设置 Referer
 		 */
-        header?: IData
+        header?: IMapData
 
         /**
 		 * 默认为 GET，有效值：OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
 		 */
-        method?: string
+        method?: "OPTIONS" | "GET" | "HEAD" | "POST" | "PUT" | "DELETE" | "TRACE" | "CONNECT"
+
+        /**
+         * 默认: json 返回的数据格式
+         */
+        dataType?: string
+
+        /**
+         * 默认: text 响应的数据类型
+         */
+        responseType?: "text" | "arraybuffer"
 
         /**
 		 * 收到开发者服务成功返回的回调函数，res = {data: '开发者服务器返回的内容'}
 		 */
-        success?: (res?: RequestResult) => void
+        success?: (res?: RequestResult<T>) => void
     }
 
     /**
-	 * 发起网络请求。`wx.request`发起的是https请求。**一个微信小程序，同时只能有5个网络请求连接**。
+     * 支持版本 >= 1.4.0
+     */
+    interface IRequestTask {
+        /**
+         * 中断请求任务
+         */
+        abort: () => void
+    }
+
+    /**
+	 * 发起 HTTPS 网络请求。使用前请注意阅读相关说明(https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html)。
+     * 
+     * @param options 
 	 */
-    export function request(options: RequestOptions): void
+    export function request(options: RequestOptions): IRequestTask
 
     interface reportAnalyticsOptions {
         [key: string]: number | string
@@ -229,12 +255,12 @@ declare namespace wx {
         /**
 		 * HTTP 请求 Header , header 中不能设置 Referer
 		 */
-        header?: IData
+        header?: IMapData
 
         /**
 		 * HTTP 请求中其他额外的 form data
 		 */
-        formData?: IData
+        formData?: IMapData
 
         /**
 		 * 收到开发者服务成功返回的回调函数，res = {data: '开发者服务器返回的内容'}
@@ -265,7 +291,7 @@ declare namespace wx {
         /**
 		 * HTTP 请求 Header
 		 */
-        header?: IData
+        header?: IMapData
 
         /**
 		 * 下载成功后以 tempFilePath 的形式传给页面，res = {tempFilePath: '文件的临时路径'}
@@ -293,7 +319,7 @@ declare namespace wx {
         /**
 		 * HTTP Header , header 中不能设置 Referer
 		 */
-        header?: IData
+        header?: IMapData
 
         /**
 		 * 默认是GET，有效值为： OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
@@ -1877,7 +1903,7 @@ declare namespace wx {
         /**
 		 * 用户信息对象，不包含 openid 等敏感信息
 		 */
-        userInfo: IData
+        userInfo: IMapData
 
         /**
 		 * 不包括敏感信息的原始数据字符串，用于计算签名。

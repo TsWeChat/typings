@@ -9,6 +9,7 @@
   "pages": [
     "pages/index/index",
     "pages/my/my",
-    "pages/analytics/analytics"
+    "pages/analytics/analytics",
+    "pages/request/request"
   ]
 }
