@@ -10,11 +10,13 @@
         "strict": true,
         "noImplicitAny": false,
         "sourceMap": false,
-        "allowJs": true
+        "allowJs": true,
+        "checkJs": true
     },
     "include": [
-        "./src",
-        "./typings",
-        "./*.d.ts"
+        "src",
+        "mini",
+        "typings",
+        "weapp.d.ts"
     ]
 }

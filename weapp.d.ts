@@ -41,78 +41,80 @@ declare function getApp(): IApp
 declare function Component(param: wx.ComponentParam): void
 
 /**
- * Page 实现的接口对象
- */
-interface IPage<TPageCustomerFunction = any, TPageData = any> {
-    /**
-	 * [read-only]页面的初始数据
-	 */
-    data?: TPageData
-
-    /**
-	 * 生命周期函数--监听页面加载
-	 */
-    onLoad?: () => void
-
-    /**
-	 * 生命周期函数--监听页面初次渲染完成
-	 */
-    onReady?: () => void
-
-    /**
-	 * 生命周期函数--监听页面显示
-	 */
-    onShow?: () => void
-
-    /**
-	 * 生命周期函数--监听页面隐藏
-	 */
-    onHide?: () => void
-
-    /**
-	 * 生命周期函数--监听页面卸载
-	 */
-    onUnload?: () => void
-
-    /**
-	 * 页面相关事件处理函数--监听用户下拉动作
-	 */
-    onPullDownRefresh?: () => void
-
-    /**
-	 * 页面上拉触底事件的处理函数
-	 */
-    onReachBottom?: () => void
-
-    /**
-	 * 将数据从逻辑层发送到视图层，同时改变对应的 this.data 的值
-	 */
-    setData?: (data: any) => void
-
-    /**
-	 * 强制更新
-	 */
-    forceUpdate?: () => void
-
-    /**
-	 * 更新
-	 */
-    update?: () => void
-}
-
-/**
  * Page() 函数用来注册一个页面。
  * 接受一个 object 参数，其指定页面的初始数据、生命周期函数、事件处理函数等。
  */
-declare function Page<TPageCustomerFunction = any, TPageData = any>(page: IPage<TPageCustomerFunction, TPageData>): void
+declare function Page<TPageCustomerFunction = any, TPageData = any>(
+    page: wx.IPage<TPageCustomerFunction, TPageData>
+): void
 
 /**
  * getCurrentPages() 函数用于获取当前页面栈的实例，
  * 以数组形式按栈的顺序给出，第一个元素为首页，最后一个元素为当前页面。
  */
-declare function getCurrentPages(): IPage[]
+declare function getCurrentPages(): wx.IPage[]
 
 declare namespace wx {
+    /**
+     * Page 实现的接口对象
+     */
+    type IPage<F extends IMapData = any, D = IMapData> = F & {
+        /**
+         * [read-only]页面的初始数据
+         */
+        data?: D
+
+        /**
+	 * 生命周期函数--监听页面加载
+	 */
+        onLoad?: () => void
+
+        /**
+	 * 生命周期函数--监听页面初次渲染完成
+	 */
+        onReady?: () => void
+
+        /**
+	 * 生命周期函数--监听页面显示
+	 */
+        onShow?: () => void
+
+        /**
+	 * 生命周期函数--监听页面隐藏
+	 */
+        onHide?: () => void
+
+        /**
+	 * 生命周期函数--监听页面卸载
+	 */
+        onUnload?: () => void
+
+        /**
+	 * 页面相关事件处理函数--监听用户下拉动作
+	 */
+        onPullDownRefresh?: () => void
+
+        /**
+	 * 页面上拉触底事件的处理函数
+	 */
+        onReachBottom?: () => void
+
+        /**
+	 * 将数据从逻辑层发送到视图层，同时改变对应的 this.data 的值
+	 */
+        setData?: (data: any) => void
+
+        /**
+	 * 强制更新
+	 */
+        forceUpdate?: () => void
+
+        /**
+	 * 更新
+	 */
+        update?: () => void
+    }
+
     export interface BaseOptions {
         /**
 		 * 接口调用成功的回调函数

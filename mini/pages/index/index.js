@@ -1,12 +1,4 @@
-/**
- * 
- * @param {test.IndexPageData} a 
- */
-function sum(a){
-
-}
-
-/** @type { Page<test.IndexPageFunction, test.IndexPageData>  } */ Page({
+Page({
     /**
    * Page initial data
    */
