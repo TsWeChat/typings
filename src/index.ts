@@ -1,10 +1,11 @@
 import { resolve } from "path"
 import { IChapter } from "./getApiList"
-import APIListJson from "./data/data.json"
 import { Parse } from "./parse"
 import { WriteType } from "./writeType"
 
-const data: IChapter[] = APIListJson
+const APIListJson = require("./data/data.json")
+
+const data: IChapter[] = APIListJson as IChapter[]
 
 const parseQueue: IChapter[] = []
 
@@ -31,7 +32,7 @@ function startParseQueue(index: number) {
             console.log("End parse")
             WriteType(data)
         } else {
-            startParseQueue(index + 1)
+            // startParseQueue(index + 1)
         }
     })
 }

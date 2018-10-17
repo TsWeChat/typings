@@ -1,24 +1,24 @@
 import { resolve } from "path"
-import * as Crawler from "crawler"
-import { Config } from "./config"
+import * as jsdom from "jsdom"
+import * as jQuery from "jquery"
+import { crawler } from "./crawler"
+
+const JSDOM = jsdom.JSDOM
 
 export interface IParsePaseItem {}
 
 export function Parse(path: string): Promise<IParsePaseItem> {
-    return new Promise((resolve, reject) => {
-        const c = new Crawler({
-            userAgent: Config.userAgent,
-            callback: function(error, res, done, $) {
-                if (error) {
-                    console.log(error)
-                } else {
+    console.log(path, "start")
 
+    return crawler(path).then((res) => {
+        const dom = new JSDOM(res.body)
 
+        const $doc = jQuery(res.body)
 
-                }
-                done()
-            }
-        })
-        c.queue(path)
+        console.log($)
+
+        // console.log($.find("title").text())
+
+        return {}
     })
 }

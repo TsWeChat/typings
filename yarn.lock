@@ -2,10 +2,54 @@
 # yarn lockfile v1
 
 
+"@types/caseless@*":
+  version "0.12.1"
+  resolved "http://registry.npm.taobao.org/@types/caseless/download/@types/caseless-0.12.1.tgz#9794c69c8385d0192acc471a540d1f8e0d16218a"
+  integrity sha1-l5TGnIOF0BkqzEcaVA0fjg0WIYo=
+
+"@types/form-data@*":
+  version "2.2.1"
+  resolved "http://registry.npm.taobao.org/@types/form-data/download/@types/form-data-2.2.1.tgz#ee2b3b8eaa11c0938289953606b745b738c54b1e"
+  integrity sha1-7is7jqoRwJOCiZU2BrdFtzjFSx4=
+  dependencies:
+    "@types/node" "*"
+
+"@types/jquery@^3.3.19":
+  version "3.3.19"
+  resolved "http://registry.npm.taobao.org/@types/jquery/download/@types/jquery-3.3.19.tgz#ebb1e86c89e8e6fe2797bf3206843a114831958b"
+  integrity sha1-67HobIno5v4nl78yBoQ6EUgxlYs=
+  dependencies:
+    "@types/sizzle" "*"
+
+"@types/node@*":
+  version "10.12.0"
+  resolved "http://registry.npm.taobao.org/@types/node/download/@types/node-10.12.0.tgz#ea6dcbddbc5b584c83f06c60e82736d8fbb0c235"
+  integrity sha1-6m3L3bxbWEyD8Gxg6Cc22PuwwjU=
+
 "@types/node@^10.11.7":
   version "10.11.7"
   resolved "https://registry.npmjs.org/@types/node/-/node-10.11.7.tgz#0e75ca9357d646ca754016ca1d68a127ad7e7300"
   integrity sha512-yOxFfkN9xUFLyvWaeYj90mlqTJ41CsQzWKS3gXdOMOyPVacUsymejKxJ4/pMW7exouubuEeZLJawGgcNGYlTeg==
+
+"@types/request@^2.47.1":
+  version "2.47.1"
+  resolved "http://registry.npm.taobao.org/@types/request/download/@types/request-2.47.1.tgz#25410d3afbdac04c91a94ad9efc9824100735824"
+  integrity sha1-JUENOvvawEyRqUrZ78mCQQBzWCQ=
+  dependencies:
+    "@types/caseless" "*"
+    "@types/form-data" "*"
+    "@types/node" "*"
+    "@types/tough-cookie" "*"
+
+"@types/sizzle@*":
+  version "2.3.2"
+  resolved "http://registry.npm.taobao.org/@types/sizzle/download/@types/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"
+  integrity sha1-qBG4wY4rq6t9VCszZYh64uTZ3kc=
+
+"@types/tough-cookie@*":
+  version "2.3.3"
+  resolved "http://registry.npm.taobao.org/@types/tough-cookie/download/@types/tough-cookie-2.3.3.tgz#7f226d67d654ec9070e755f46daebf014628e9d9"
+  integrity sha1-fyJtZ9ZU7JBw51X0ba6/AUYo6dk=
 
 abab@^2.0.0:
   version "2.0.0"
@@ -499,6 +543,11 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
+
+jquery@^3.3.1:
+  version "3.3.1"
+  resolved "http://registry.npm.taobao.org/jquery/download/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+  integrity sha1-lYzinoHJeQ8xvneS311NlfxX+8o=
 
 jsbn@~0.1.0:
   version "0.1.1"
