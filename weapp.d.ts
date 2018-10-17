@@ -44,8 +44,6 @@ declare function Component(param: wx.ComponentParam): void
  * Page 实现的接口对象
  */
 interface IPage<TPageCustomerFunction = any, TPageData = any> {
-    [key: string]: any
-
     /**
 	 * [read-only]页面的初始数据
 	 */
